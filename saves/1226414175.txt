@@ -1,0 +1,24 @@
+$text = "
+<p>PixFlow is a generative artwork by LAb[au] based on a vector field determining the path of particles, pixels, shaping into flows as their density evolves. From the mutual influence between vectors and particles emerges  an unsuspecting, highly evolving behaviour of particles shaping vertexes, migrating lines and turbulences by following the combinatory play of numbers. From the mutual influence between vectors and particles, changing their orientations as they meet, and calculating these changes according to two different number sets, integers and floating numbers, due to rounding errors in between both sets, emerge  an unsuspecting behaviour of particles shaping vertexes, migrating lines and turbulences by following the combinatory play of numbers. It is the use of an error in the set of a system to achieve an evolving and organic behaviour.</p>
+<p>&nbsp;</p><!--TAB-->
+
+<p>PixFlow #1 is an 'integrated' artwork for the Casino Brussels restaurant created in 2005. The installation is constituted out of 11 plasma-screens driven by 11 networked computers forming a continuous strip of 13m.</p>
+<p>PixFlow #2 is running on Lab[au]'s  art console, a sculpture crafted in form of a T-shaped Plexiglas box, integrating 4 stripped screens and 4 networked computers.</p>
+<p><b>&nbsp;The generative system </b></p>
+<p>PixFlow is a generative art work by LAb[au] constructed by computer software algorithms having as conceptual basis the use of systems as a method for making art, placing the creative act in the setting of such a system, its set of rules, which then can run autonomously.</p>"; 
+
+function tabbifyContent($text, $delimiter){
+	$text= explode($delimiter,$text);
+	$tab_menu= '<ul>';
+	$tab_text='<div id="textContent">';
+	foreach ($text as $index =>$value){
+		$uniq = 'fragment'.$index;
+		$tab_menu .= '<li><a href="#'.$uniq.'">'.$index.'</a></li>';
+		$tabbified .=  '<div id="'.$uniq.'">'.$value.'</div>';
+	}
+	$tab_menu .= '</ul>';
+	$tabbified.='</div>';
+	return $tab_menu.$tabbified;
+}
+$text=  tabbifyContent($text,'<!--TAB-->');
+echo $text;

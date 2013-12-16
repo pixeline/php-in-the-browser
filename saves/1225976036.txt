@@ -1,0 +1,43 @@
+$text= addslashes("&lt;p&gt;Edition&lt;/p&gt;
+&lt;p&gt;&lt;a class=&quot;tag&quot; rel=&quot;tag-definition&quot; title=&quot;Click to know more about PixFlow #2&quot; href=&quot;?tag=PixFlow #2&quot;&gt;PixFlow #2&lt;/a&gt; is a generative art work existing in three original editions, in addition to the artist&amp;rsquo;s edition, conceived for LAb[au]'s art console&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;u&gt;Project data:&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;Year of conception: 2007&lt;/p&gt;
+&lt;p&gt;Total length of the installation: 1,72m&lt;/p&gt;
+&lt;p&gt;Total depth of the installation: 32 cm &lt;br /&gt;
+Total width of the installation: 29  cm&lt;/p&gt;
+&lt;p&gt;Total screen space: 5760 x 900&lt;/p&gt;
+&lt;p&gt;Total amount of particles: 6000&lt;/p&gt;
+&lt;p&gt;Total amount of vectors: 20160&lt;/p&gt;
+&lt;p&gt;Speed of particles: 5pixel / frame&lt;/p&gt;
+&lt;p&gt;&amp;lsquo;&lt;a class=&quot;tag&quot; rel=&quot;tag-definition&quot; title=&quot;Click to know more about PixFlow&quot; href=&quot;?tag=PixFlow&quot;&gt;PixFlow&lt;/a&gt; is a generative artwork by LAb[au] based on a vector field&amp;nbsp;determining the path of particles, pixels, shaping into flows as their density evolves. From&amp;nbsp;the mutual influence between vectors and particles&amp;nbsp;emerge an unsuspecting, highly evolving behaviour of particles shaping vertexes, migrating lines and turbulences by following the combinatory play of numbers. From the mutual influence between vectors and particles, changing their orientations as they meet, and calculating these changes according to two different number sets, integers and floating numbers, emerge due to rounding errors in between both, sets an unsuspecting behaviour of particles shaping vertexes, migrating lines and turbulences by following the combinatory play of numbers. It is the use of an error in the set of a system to achieve an evolving and organic behaviour.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;The generative artwork &lt;a class=&quot;tag&quot; rel=&quot;tag-definition&quot; title=&quot;Click to know more about PixFlow&quot; href=&quot;?tag=PixFlow&quot;&gt;PixFlow&lt;/a&gt; (read about &lt;a class=&quot;tag&quot; rel=&quot;tag-definition&quot; title=&quot;Click to know more about PixFlow&quot; href=&quot;?tag=PixFlow&quot;&gt;PixFlow&lt;/a&gt; the generative process) exists in two versions, as an integrated installation at casino Brussels restaurant, &lt;a class=&quot;tag&quot; rel=&quot;tag-definition&quot; title=&quot;Click to know more about PixFlow #1&quot; href=&quot;?tag=PixFlow #1&quot;&gt;PixFlow #1&lt;/a&gt; and in form of an edition on LAb[au]&amp;rsquo;s generative art console, &lt;a class=&quot;tag&quot; rel=&quot;tag-definition&quot; title=&quot;Click to know more about PixFlow #2&quot; href=&quot;?tag=PixFlow #2&quot;&gt;PixFlow #2&lt;/a&gt; .&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;u&gt;About LAb[au]'s art console&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;The principle of LAb[au]'s art console is based on early video game consoles such as the Atari 2600. The term &amp;quot;video game console&amp;quot; directly reflects the technical configuration: a specific task-oriented computer, the console, which can be plugged on any monitor through a video output. Additionally, these consoles allowed to execute different games by the means of cartridges, which, once inserted before booting the console, loaded the specific game. Different user interfaces could be plugged in the console to enhance the game experience by multiple interaction modes. Video game consoles are thus specific designed machines for consumers to buy and use solely for playing video games and which distinguish from a personal computer, which has many other functions, or arcade machines, which are designed for businesses that purchase them to charge others for their use of the machine on a pay-per-game basis.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;The use of cartridges in video game consoles to execute specific games gives a material quality to the software release as it simplifies the change of one item to the other without confronting the user with installation and hardware set ups. This configuration improves system performance and stability as software is specifically designed for the hardware. In summary, the principle of game consoles as a possible model for an &amp;lsquo;integrated&amp;rsquo; solution to present generative software art enhance design with the ability to create soft and hardware beyond formatted technology and product standards and as such enlarges the artistic aspect (value) in technology based art. LAb[au]'s interest in consoles as functioning mode to present generative artworks is thus founded on these 'integrated' and optimized design qualities combining the material appearance of the console, the&amp;nbsp;hardware as much as the optimization of software design.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;LAb[au]&amp;rsquo;s art console is conceived to present its different generative software art projects by the means of flash cards to be inserted in a specifically designed hardware console. Each set of flash cards, taking the place of the classical cartridge, contains &lt;i&gt;operating system and executable file&lt;/i&gt;, the art work, which can easily be swapped&amp;nbsp;with other cards,&amp;nbsp;containing other generative artworks&amp;nbsp;of LAb[au].&lt;span&gt;The console is a T-shape crafted transparent Plexiglas box of 1,7m length, 32cm wide and 29cm high. In this shell 4 stripped screens and hardware are integrated presenting a front side of a 5760 x 900 native pixel screen space. The back of the console exposes the hardware components needed to calculate and display the real-time processes. Based on the synchronised rendering of four computers turning the screen space into a single render plane, the networking of the four computers is a major element of the conception. The specific shape of the consoles allows the console to&lt;/span&gt; stand vertically like a column, horizontally like a panoramic screen profile, or mounted on a wall as an ultra wide screen.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;Due to these specificities the software art gains in spatial and sculptural qualities as it presents an integrated vision towards generative art being about soft and hardware.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;a class=&quot;tag&quot; rel=&quot;tag-definition&quot; title=&quot;Click to know more about PixFlow #2&quot; href=&quot;?tag=PixFlow #2&quot;&gt;PixFlow #2&lt;/a&gt; is the first executable art work for LAb[au]&amp;rsquo;s generative art console.&lt;/p&gt;");
+
+$text=html_entity_decode($text, ENT_QUOTES);
+
+//echo '<h1>This is the text before the preg_replace</h1>';
+//echo "\n$text";
+function removeRedundantTag($matches)
+{
+global $label;
+  if ($matches[3] == $label) {
+    	return $matches[3];
+    }else
+{
+      return $matches[0];
+}
+
+}
+global $label;
+$label = 'PixFlow #2';
+$pattern = '#<a class="tag" rel="tag-definition" title=(.*?) href=(.*?)>(.*?)</a>#';
+$newtext = preg_replace_callback($pattern, 'removeRedundantTag', $text);
+
+
+echo '<h1>This is the text AFTER the preg_replace</h1>';
+echo $newtext ;

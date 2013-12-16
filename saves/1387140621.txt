@@ -1,0 +1,15 @@
+$supported_langs = array('fr'=>'fr_BE','nl'=>'nl_BE');
+
+$lang = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
+preg_match_all('/(\W|^)([a-z]{2})([^a-z]|$)/six', $lang, $m, PREG_PATTERN_ORDER);
+$user_langs = $m[2];
+print_r($user_langs);
+
+$user_lang = 'nl'; // Default
+foreach($user_langs AS $tmp){
+    if(in_array($tmp, array_keys($supported_langs))){
+        $user_lang = $tmp;
+        break;
+    }
+}
+echo $user_lang;
