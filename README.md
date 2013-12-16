@@ -3,6 +3,8 @@ php-in-the-browser
 
 PHP In The Browser is a php code editor that allows you to quickly test some php code and functions. Really useful tool for php development.
 
+![Screenshot](https://raw.github.com/pixeline/php-in-the-browser/raw/master/screenshot.png)
+
 Requirements
 ============
 A web server with php5+ installed.
