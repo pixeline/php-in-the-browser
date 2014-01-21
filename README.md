@@ -1,7 +1,7 @@
 php-in-the-browser
 ==================
 
-PHP In The Browser is a php code editor that allows you to quickly test some php code and functions. Really useful tool for php development.
+PHP In The Browser is a php package that allows you to quickly test some php code and functions.  It's like a console, but for PHP. Really useful tool for php development. 
 
 ![Screenshot](https://github.com/pixeline/php-in-the-browser/raw/master/screenshot.png)
 
