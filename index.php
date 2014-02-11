@@ -23,7 +23,7 @@ function implode_get() {
 <body>
 <table style="width:100%;height:100%;overflow:hidden">
 	<tr style="vertical-align:top">
-		<td style="width:45%;height:99%">
+		<td style="width:45%;height:99%;max-width:700px;">
 			<h2>PHP Code input <input type="submit" id="saveButton" title="click to save this code" value="save" /></h2>
 			<form method="post" action="php_result.php<?php echo implode_get() ?>" target="result">
 				<p style="text-align:right"><input type="submit" name="submit" value="process" class="button" ></p>
